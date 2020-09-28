@@ -11,11 +11,8 @@
   
 
   "scripts": {
-    "build": "cd client && npm install && npm run build && cd ..",
-    "deploy": "cp -a client/build/. public/",
-    "postinstall": "npm run build && npm run deploy && echo 'gone fishin built!'"
-
-    
+    "build": "cd flatiron/gone-fishin/gone-fishin-backend && npm install && npm run build && cd ..",
+    "deploy": "cp -a client/build/. public/"
 
   },
   "author": "",
