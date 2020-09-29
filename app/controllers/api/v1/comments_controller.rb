@@ -1,8 +1,5 @@
 class Api::V1::CommentsController < ApplicationController
-
     before_action :set_destination
-
-
     def index
         @comments = Comment.all
         render json: @comments 
