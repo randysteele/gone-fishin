@@ -9,12 +9,6 @@ Rails.application.routes.draw do
          resources :comments
         #  resources :trips 
       end
-      # scope '/api/v1' do
-      #   resources :destinations do
-      #     resources :features
-      #     resources :comments
-      #   end
-      # end
      end
     end
   end
