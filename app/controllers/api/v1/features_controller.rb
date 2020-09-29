@@ -1,4 +1,4 @@
-class FeaturesController < ApplicationController
+class Api::V1::FeaturesController < ApplicationController
 
     before_action :set_destination
 
