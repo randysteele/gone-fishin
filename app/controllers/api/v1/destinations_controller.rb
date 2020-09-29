@@ -1,4 +1,4 @@
-class DestinationsController < ApiController
+class DestinationsController < ApplicationController
 
     def index
         @destinations = Destination.all

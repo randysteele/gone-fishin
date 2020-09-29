@@ -1,4 +1,4 @@
-class CommentsController < ApiController
+class CommentsController < ApplicationController
 
     before_action :set_destination
 
